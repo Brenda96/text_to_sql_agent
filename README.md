@@ -144,13 +144,6 @@ La app abrirá en `http://localhost:7860`.
 
 ---
 
-## 🔒 Notas de seguridad
-
-- **Nunca subas tu `.env` real** a un repositorio público — solo contiene tu API key de Groq. Está excluido vía `.gitignore`.
-- Si despliegas esto en Hugging Face Spaces o similar, configura `GROQ_API_KEY` como **secreto** del entorno, no como variable de entorno plana en el código.
-
----
-
 ## 👤 Autora
 
 Hecho por **Brenda Jauregui**.
